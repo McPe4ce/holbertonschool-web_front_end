@@ -168,9 +168,18 @@ ul.row {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
+.social-link {
+    display: block;
+}
+.social-link svg {
+    fill: var(--text-color);
+}
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
+    color: var(--text-color);
+}
+.footer-address {
     color: var(--text-color);
 }
 .footer ul {
