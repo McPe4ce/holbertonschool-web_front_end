@@ -216,7 +216,7 @@ ul.row {
     color: var(--nav-item-link-hover);
 }
 .section-hero {
-    background: .2;
+    background-size: 90rem auto;
     width: 90rem;
     height: auto;
 }
