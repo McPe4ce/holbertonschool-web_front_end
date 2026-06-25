@@ -229,11 +229,11 @@ ul.row {
     object-fit: cover;
     vertical-align: bottom;
 }
-.card-image .card-work:hover {
+.card-work:hover .card-image {
     transform: scale(1.2);
-    transition-property: var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
-.card-outer .card-work:hover {
+.card-work:hover .card-outer {
     transform: scale(0.95);
 }
 
@@ -243,7 +243,7 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition-property: var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
